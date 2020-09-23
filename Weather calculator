@@ -1,0 +1,14 @@
+const kelvin = 293;
+// kelvin temperature
+const celsius = kelvin -273;
+//calculation celsius which is -273 degrees less than Kelvin
+let newton = celsius * (33 / 100);
+newton = Math.floor(newton);
+let fahrenheit = celsius * (9 / 5) + 32;
+//calcutation of celsius to fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+//fahrenheit in Math.floor to get a decimal number
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+
+console.log(celsius);
+console.log(newton);
